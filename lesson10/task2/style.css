@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/img-1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image-wrapper{
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.396);
+}
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+img{
+    max-width: 300px;
+    height: auto;
+}
+.second{
+    height: 200px;
+}
+img:hover{
+    transition: 0.7s;
+    transform: scale(1.1);
+}
